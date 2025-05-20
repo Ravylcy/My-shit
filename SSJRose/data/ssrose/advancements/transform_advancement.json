@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "transformed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_dye"
+    },
+    "title": {
+      "text": "Super Saiyan Rosé",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Achieve the divine Super Saiyan Rosé transformation",
+      "color": "pink"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+}
