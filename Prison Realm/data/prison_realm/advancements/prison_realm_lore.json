@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "text": "Prison Realm Knowledge",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Discover the secrets of the Prison Realm",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+  },
+  "criteria": {
+    "has_lore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:written_book"],
+            "nbt": "{title:\"Prison Realm Secrets\"}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "function": "prison_realm:give_seal_item"
+  }
+}
