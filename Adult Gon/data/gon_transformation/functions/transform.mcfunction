@@ -17,11 +17,11 @@ effect give @s minecraft:jump_boost 60 1 true
 effect give @s minecraft:regeneration 60 1 true
 effect give @s minecraft:glowing 60 0 true
 
-# Apply attribute modifiers
+# Apply attribute modifiers - Fixed for 1.20.1
 attribute @s minecraft:generic.max_health modifier add d63797b4-14c6-4f33-86d0-395c41d9db1a "gon_transformation_health" 10.0 add
-attribute @s minecraft:generic.attack_damage modifier add d63797b4-14c6-4f33-86d0-395c41d9db1b "gon_transformation_damage" 5.0 multiply_base
+attribute @s minecraft:generic.attack_damage modifier add d63797b4-14c6-4f33-86d0-395c41d9db1b "gon_transformation_damage" 5.0 multiply
 attribute @s minecraft:generic.armor modifier add d63797b4-14c6-4f33-86d0-395c41d9db1c "gon_transformation_armor" 8.0 add
-attribute @s minecraft:generic.movement_speed modifier add d63797b4-14c6-4f33-86d0-395c41d9db1d "gon_transformation_speed" 0.3 multiply_base
+attribute @s minecraft:generic.movement_speed modifier add d63797b4-14c6-4f33-86d0-395c41d9db1d "gon_transformation_speed" 0.3 multiply
 attribute @s minecraft:generic.knockback_resistance modifier add d63797b4-14c6-4f33-86d0-395c41d9db1e "gon_transformation_knockback" 0.8 add
 
 # Heal player to max health
