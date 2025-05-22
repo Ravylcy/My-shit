@@ -1,1 +1,0 @@
-	((${input$entity} instanceof LivingEntity) && ((LivingEntity) ${input$entity}).hasEffect(JujutsucraftModMobEffects.DOMAIN_EXPANSION.get()))

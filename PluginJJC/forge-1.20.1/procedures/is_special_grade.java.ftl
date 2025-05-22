@@ -1,2 +1,0 @@
-	(${input$entity} instanceof ServerPlayer && ((ServerPlayer)${input$entity}).level() instanceof ServerLevel
-	&& ((ServerPlayer)${input$entity}).getAdvancements().getOrStartProgress(((ServerPlayer)${input$entity}).server.getAdvancements().getAdvancement(new ResourceLocation("jujutsucraft:sorcerer_grade_special"))).isDone())

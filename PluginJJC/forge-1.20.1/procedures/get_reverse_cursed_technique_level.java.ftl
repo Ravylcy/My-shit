@@ -1,1 +1,0 @@
-	(${input$entity} instanceof LivingEntity && ((LivingEntity)${input$entity}).hasEffect(JujutsucraftModMobEffects.REVERSE_CURSED_TECHNIQUE.get()) ? ((LivingEntity)${input$entity}).getEffect(JujutsucraftModMobEffects.REVERSE_CURSED_TECHNIQUE.get()).getAmplifier() : 0)
