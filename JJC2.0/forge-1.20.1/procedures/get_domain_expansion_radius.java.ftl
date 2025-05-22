@@ -1,0 +1,1 @@
+	(JujutsucraftModVariables.MapVariables.get(world).DomainExpansionRadius)

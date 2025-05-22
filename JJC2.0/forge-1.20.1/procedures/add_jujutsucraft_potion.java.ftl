@@ -1,0 +1,3 @@
+if (${input$entity} instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(JujutsucraftModMobEffects.${field$datalist}.get(), ${input$value2},
+					(int) ((${input$entity} instanceof LivingEntity _livEnt && _livEnt.hasEffect(JujutsucraftModMobEffects.${field$datalist}.get()) ? _livEnt.getEffect(JujutsucraftModMobEffects.${field$datalist}.get()).getAmplifier() : 0) + ${input$value3}), ${input$tickambient}, ${input$particles}));

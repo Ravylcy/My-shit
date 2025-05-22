@@ -1,0 +1,2 @@
+		if (${input$entity} instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(JujutsucraftModMobEffects.CURSED_TECHNIQUE.get(), ${input$value2}, ${input$value1}, ${input$tickambient}, ${input$particles}));

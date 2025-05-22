@@ -1,0 +1,2 @@
+	(${input$entity} instanceof ServerPlayer && ((ServerPlayer)${input$entity}).level() instanceof ServerLevel
+	&& ((ServerPlayer)${input$entity}).getAdvancements().getOrStartProgress(((ServerPlayer)${input$entity}).server.getAdvancements().getAdvancement(new ResourceLocation("jujutsucraft:mastery_domain_expansion"))).isDone())

@@ -1,0 +1,1 @@
+(${input$entity} instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(JujutsucraftModMobEffects.${field$datalist}.get()))

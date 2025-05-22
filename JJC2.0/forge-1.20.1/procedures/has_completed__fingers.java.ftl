@@ -1,0 +1,4 @@
+(${input$entity} instanceof ServerPlayer && ((ServerPlayer)${input$entity}).level() instanceof ServerLevel
+&& ((ServerPlayer)${input$entity}).getCapability(JujutsucraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new JujutsucraftModVariables.PlayerVariables()).BodyItem != null
+&& ((ServerPlayer)${input$entity}).getCapability(JujutsucraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new JujutsucraftModVariables.PlayerVariables()).BodyItem.getItem() == JujutsucraftModItems.SUKUNA_FINGER.get()
+&& ((ServerPlayer)${input$entity}).getCapability(JujutsucraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new JujutsucraftModVariables.PlayerVariables()).BodyItem.getCount() == 20)

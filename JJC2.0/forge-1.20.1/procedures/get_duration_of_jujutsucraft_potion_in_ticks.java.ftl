@@ -1,0 +1,1 @@
+(${input$entity} instanceof LivingEntity _livEnt && _livEnt.hasEffect(JujutsucraftModMobEffects.${field$datalist}.get()) ? _livEnt.getEffect(JujutsucraftModMobEffects.${field$datalist}.get()).getDuration() : 0)
