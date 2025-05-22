@@ -3,15 +3,14 @@
   "weight": 30,
   "minversion": 0,
   "supportedversions": [
-    202400115713,
-    202400115821,
-    2024001
+    202500101,
+    2025001
   ],
   "info": {
     "name": "Jujutsucraft",
-    "version": "1",
-    "description": "Some Stuff",
+    "version": "2.0",
+    "description": "Updated plugin for Jujutsu Craft mod compatibility with MCreator 2025.1",
     "author": "Satushi",
-    "credits": "Made with MCreator plugin builder by NerdyPuzzle"
+    "credits": "Made with MCreator plugin builder by NerdyPuzzle, Updated for MCreator 2025.1"
   }
 }

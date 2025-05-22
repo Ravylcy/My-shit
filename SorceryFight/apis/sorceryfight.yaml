@@ -8,7 +8,7 @@ forge-1.20.1:
     }
     
     dependencies {
-      implementation fg.deobf("curse.maven:sorceryfight-471288:5840968")
+      implementation fg.deobf("curse.maven:sorceryfight-471288:6242473")
     }
   update_files:
     - ~
