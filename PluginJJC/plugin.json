@@ -1,0 +1,17 @@
+{
+  "id": "jujutsucraft",
+  "weight": 30,
+  "minversion": 0,
+  "supportedversions": [
+    202400115713,
+    202400115821,
+    2024001
+  ],
+  "info": {
+    "name": "Jujutsucraft",
+    "version": "1",
+    "description": "Some Stuff",
+    "author": "Satushi",
+    "credits": "Made with MCreator plugin builder by NerdyPuzzle"
+  }
+}

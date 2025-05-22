@@ -1,0 +1,1 @@
+	(${input$entity} instanceof LivingEntity && ((LivingEntity)${input$entity}).hasEffect(JujutsucraftModMobEffects.SIX_EYES.get()) ? ((LivingEntity)${input$entity}).getEffect(JujutsucraftModMobEffects.SIX_EYES.get()).getAmplifier() : 0)
