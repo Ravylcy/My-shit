@@ -1,0 +1,1 @@
+	((${input$entity} instanceof LivingEntity) && ((LivingEntity) ${input$entity}).hasEffect(JujutsucraftModMobEffects.SUKUNA_EFFECT.get()))

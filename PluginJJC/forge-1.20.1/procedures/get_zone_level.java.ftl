@@ -1,0 +1,1 @@
+	(${input$entity} instanceof LivingEntity && ((LivingEntity)${input$entity}).hasEffect(JujutsucraftModMobEffects.ZONE.get()) ? ((LivingEntity)${input$entity}).getEffect(JujutsucraftModMobEffects.ZONE.get()).getAmplifier() : 0)

@@ -1,0 +1,4 @@
+${input$entity}.getCapability(JujutsucraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+capability.PlayerCursePowerMAX = ${input$ce_value};
+capability.syncPlayerVariables(${input$entity});
+});

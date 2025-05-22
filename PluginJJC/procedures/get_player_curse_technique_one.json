@@ -1,0 +1,30 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "entity2",
+      "check": "Entity"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": "#606999",
+  "mcreator": {
+    "toolbox_id": "jujutsucraft_data_nbt",
+    "toolbox_init": [
+      "<value name=\"entity2\"><block type=\"entity_from_deps\"></block></value>"
+    ],
+    "inputs": [
+      "entity2"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ],
+    "required_apis": [
+      "jujutsucraft_api"
+    ]
+  }
+}
