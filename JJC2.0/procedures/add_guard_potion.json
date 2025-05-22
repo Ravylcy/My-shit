@@ -1,0 +1,56 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "entity",
+      "check": "Entity"
+    },
+    {
+      "type": "input_value",
+      "name": "value2",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "logic1",
+      "check": "Boolean"
+    },
+    {
+      "type": "input_value",
+      "name": "logic2",
+      "check": "Boolean"
+    },
+    {
+      "type": "input_value",
+      "name": "value3",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#3b3b3b",
+  "mcreator": {
+    "toolbox_id": "effects",
+    "toolbox_init": [
+      "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>",
+      "<value name=\"value2\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"logic1\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value>",
+      "<value name=\"logic2\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value>",
+      "<value name=\"value3\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
+    ],
+    "inputs": [
+      "entity",
+      "value2",
+      "logic1",
+      "logic2",
+      "value3"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

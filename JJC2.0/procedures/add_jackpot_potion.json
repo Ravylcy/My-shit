@@ -1,0 +1,56 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "entity",
+      "check": "Entity"
+    },
+    {
+      "type": "input_value",
+      "name": "value1",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "value2",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "tickambient",
+      "check": "Boolean"
+    },
+    {
+      "type": "input_value",
+      "name": "particles",
+      "check": "Boolean"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#2ace00",
+  "mcreator": {
+    "toolbox_id": "effects",
+    "toolbox_init": [
+      "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>",
+      "<value name=\"value1\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"value2\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"tickambient\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value>",
+      "<value name=\"particles\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value>"
+    ],
+    "inputs": [
+      "entity",
+      "value1",
+      "value2",
+      "tickambient",
+      "particles"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

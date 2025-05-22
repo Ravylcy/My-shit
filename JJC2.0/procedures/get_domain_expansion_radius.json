@@ -1,0 +1,18 @@
+{
+  "args0": [
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": "#0048a4",
+  "mcreator": {
+    "toolbox_id": "nbt",
+    "toolbox_init": [
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

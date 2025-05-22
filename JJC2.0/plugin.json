@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "weight": 30,
+  "minversion": 0,
+  "supportedversions": [
+    202500101,
+    2025001
+  ],
+  "info": {
+    "name": "PluginTest",
+    "version": "1.2",
+    "description": "None",
+    "author": "Satushi",
+    "credits": "Made with MCreator plugin builder by NerdyPuzzle"
+  }
+}

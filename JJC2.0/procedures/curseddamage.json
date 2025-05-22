@@ -1,0 +1,18 @@
+{
+  "args0": [
+  ],
+  "inputsInline": true,
+  "output": "DamageSource",
+  "colour": "#f54800",
+  "mcreator": {
+    "toolbox_id": "nbt",
+    "toolbox_init": [
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}
