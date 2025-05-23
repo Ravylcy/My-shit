@@ -336,16 +336,13 @@ async def handle_character_claim(message):
 
     # Log the claim
     log_channel = bot.get_channel(LOG_CHANNEL_ID)
-    minecraft_command = f"/jjkuCT {character} {minecraft_name}"
-    faction_command = f"/jjkuChangeRace {CHARACTER_FACTION[character]} {minecraft_name}"
 
     await log_channel.send(
         f"**New Claim**\n"
         f"Character: {character}\n"
         f"Claimed by: {message.author.mention} ({minecraft_name})\n"
         f"Time: {timestamp}\n"
-        f"Faction: {CHARACTER_FACTION[character]}\n"
-        f"Minecraft Commands:\n```\n{minecraft_command}\n{faction_command}\n```"
+        f"Faction: {CHARACTER_FACTION[character]}"
     )
 
     # Confirm the claim to the user
@@ -604,16 +601,13 @@ async def forceclaim(ctx, character, user: discord.Member, minecraft_name: str =
 
     # Log the claim
     log_channel = bot.get_channel(LOG_CHANNEL_ID)
-    minecraft_command = f"/jjkuCT {character} {minecraft_name}"
-    faction_command = f"/jjkuChangeRace {CHARACTER_FACTION[character]} {minecraft_name}"
 
     await log_channel.send(
         f"**Force Claim by Admin**\n"
         f"Character: {character}\n"
         f"Assigned to: {user.mention} ({minecraft_name})\n"
         f"Time: {timestamp}\n"
-        f"Faction: {CHARACTER_FACTION[character]}\n"
-        f"Minecraft Commands:\n```\n{minecraft_command}\n{faction_command}\n```"
+        f"Faction: {CHARACTER_FACTION[character]}"
     )
 
     # Confirm the claim
