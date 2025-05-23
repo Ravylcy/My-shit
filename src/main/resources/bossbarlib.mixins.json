@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.hadences.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "bossbarlib.refmap.json",
+  "mixins": [
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "client.BossBarHudMixin"
+  ],
+  "minVersion": "0.8"
+}

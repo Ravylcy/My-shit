@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="AGPL-3.0"
+
+[[mods]]
+modId="bossbarlib"
+version="${file.jarVersion}"
+displayName="BossBarLib"
+description='''This is a library mod that provides a simple API for creating boss bars.'''
+authors="Hadences"
+displayURL="https://fabricmc.net/"
+
+[[dependencies.bossbarlib]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bossbarlib]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
